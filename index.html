@@ -35,6 +35,8 @@
 
   const CDN_HOST = "https://cdn.euclidxr.com/celestar";
 
+  const itemId = window.location.pathname.substr(1);
+
   const getBackendData = async () => {
     const {
         exposure,
@@ -43,7 +45,7 @@
         name,
         poster,
     } = await API
-      .get("smbhav2022api", "/items/2c792545-2345-4f9b-bd69-d323cf7c9132");
+      .get("smbhav2022api", `/items/${itemId}`);
     document.body.innerHTML = `
         <model-viewer
             alt=${name}
