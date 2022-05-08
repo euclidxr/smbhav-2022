@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@aws-amplify/ui-react": "^2.16.1",
+    "@vitejs/plugin-vue": "^2.3.2",
+    "aws-amplify": "^4.3.21",
+    "vite": "^2.9.8"
+  },
+  "scripts": {
+    "start": "vite --mode development --host 0.0.0.0",
+    "build": "vite build"
+  }
+}

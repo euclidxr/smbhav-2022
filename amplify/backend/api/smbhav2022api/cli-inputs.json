@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/items/{id}": {
+      "name": "/items/{id}",
+      "lambdaFunction": "smbhav2022lambda",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

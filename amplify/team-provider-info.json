@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-smbhav2022-dev-161007-authRole",
+      "UnauthRoleArn": "arn:aws:iam::619926328489:role/amplify-smbhav2022-dev-161007-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::619926328489:role/amplify-smbhav2022-dev-161007-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-smbhav2022-dev-161007-deployment",
+      "UnauthRoleName": "amplify-smbhav2022-dev-161007-unauthRole",
+      "StackName": "amplify-smbhav2022-dev-161007",
+      "StackId": "arn:aws:cloudformation:us-east-2:619926328489:stack/amplify-smbhav2022-dev-161007/3d4aa0f0-cebb-11ec-a770-024e1bea4a8c",
+      "AmplifyAppId": "d3neoh94bi77u2"
+    },
+    "categories": {
+      "function": {
+        "smbhav2022lambda": {
+          "deploymentBucketName": "amplify-smbhav2022-dev-161007-deployment",
+          "s3Key": "amplify-builds/smbhav2022lambda-742b535870707032684a-build.zip"
+        }
+      }
+    }
+  }
+}
